@@ -1,12 +1,10 @@
 <%-- 
     Document   : Header
-    Created on : 25-Dec-2019, 22:54:59
-    /*copyright by fu hub*/
-/*link group https://www.facebook.com/groups/498752080529382/*/
+    Created on : 26-Dec-2019, 14:44:27
+    Author     : Hoan toan hanh phuc 
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,14 +14,14 @@
     </head>
     <body>
         <div class="header">
-            <div class="title">Maria Bagnarelli's Cafe</div>
+            <div class="title">The Sushi Restaurant</div>
             <div class="subtitle">Welcome to my website</div>
         </div>
         <div class="menu">
             <ul class="nav">
-                <li><a  href="HomeControl">Home</a></li>
-                <li><a  href="ListCakeControl">About my Cakes</a></li>
-                <li><a  href="LocationControl">Find Maria's Cafe</a></li>
+                <li><a class="${activeHome}" href="HomeControl">Home</a></li>
+                <li><a class="${activeMenu}" href="MenuControl">Menu and price list</a></li>
+                <li><a class="${activeInfor}" href="InforControl">Find Us</a></li>
             </ul>
         </div>
     </body>

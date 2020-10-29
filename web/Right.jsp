@@ -22,7 +22,7 @@
                     <c:forEach items="${share}" var="i">
                         <div class="link">
                         <a href="#">
-                            <img src="images/${i.icon}" alt=""/>
+                            <img src="${imagePath}${i.icon}" alt=""/>
                             Share on ${i.socialNetwork}
                         </a>
                     </div>

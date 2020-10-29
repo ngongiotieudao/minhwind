@@ -1,11 +1,10 @@
-/*copyright by fu hub*/
-/*link group https://www.facebook.com/groups/498752080529382/*/
 body{
-    background-image: url(../images/blur-redblack.jpg);
+    background-image: url(../images/wine.png);
     font-family: Arial;
     background-repeat: no-repeat;
     background-position: top;
     font-family: Arial;
+    background-color: #d5f46b;
 }
 .container{
     width: 980px;
@@ -24,123 +23,77 @@ body{
     height: auto;
     margin: auto;
 }
-/*right*/
 .left{
     width: 700px;
     height: auto;
-    border-bottom: 1px solid gray;
-
+    border-bottom: 1px solid lightgrey;
 }
-/*introduction*/
-.intro{
-    margin-top: 35px;
+.image_top{
+    margin-top: 37px;
+    width: 700px;
+    height: auto;
+    border-bottom: 3px dotted lightgrey;
+}
+.image_child{
+    height: 400px;
+    background-image: url(../images/sushi0.jpg);
+    width: 700px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+.list_product{
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    /*    inline block de cho do cao cua the
+        div bang voi do cao maximum cua noi dung
+    */
+    font-size: 17px;
+    padding-bottom: 30px;
+    border-bottom: 3px dotted lightgrey;
+}
+.product_title{
     width: 100%;
     height: auto;
-    display: flex;
-    border-bottom: 3px grey dotted;
-    padding-bottom: 30px;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-.intro_image{
-    width: 174px;
+
+.product_image img{
+    width: 350px;
+    height: 350px;
+    float: left;
+    border-radius: 15px;
     margin-right: 20px;
 }
-.intro_image img{
-    width: 100%;  
-    height: auto;
-    border-radius: 12px;
-}
-.intro_content{
-    width: 526px;
-    height: auto;
-}
-.intro_title{
+.paging{
     width: 100%;
-    height: auto;
-    font-size: 24px;
-    margin-bottom: 10px;
-    font-family: georgia, palatino;
-}
-.intro_des{
-    font-size: 17px;
-    font-family: arial;
-}
-/*end of intro*/
-
-
-/*top 2 product*/
-.top2{
-    width: 100%;
-    height: auto;
-    display: flex;
-    border-bottom: 3px dotted grey;
-    padding-bottom: 20px;
-    padding-top: 40px;
-}
-.perTop2{
-    width: 343px;
-    margin-left: 0px;
-}
-.perTop2:last-of-type{
-    margin-left: 14px;
-}
-
-.top2_image img{
-    width: 100%;
-    height: auto;
-    border-radius: 12px;
-}
-.top2_title{
-    font-size: 24px;
-    font-family: Times New Roman;
+    height: 40px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
-.top2_description{
-    font-size: 17px;
-    font-family: Arial;
+.paging a{
+    padding-left: 10px;
 }
-/*end of top 2*/
 
-/*begin of infor*/
-.infor{
-    width: 100%;
-    height: auto;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 17px;
-    border-bottom: 3px grey dotted;
-}
-.infor_title{
-    font-size: 24px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    font-family: Times New Roman;
-}
-.signature{
-    font-size: 17px;
-    font-family: Arial;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-/*end of infor*/
-
-/*begin of cake details*/
-.cake{
+.sushi{
     width: 100%;
     height: auto;
 }
-.cake_title{
+.sushi_title{
     font-size: 28px;
     font-family: Times New Roman;
     margin-top: 40px;
     margin-bottom: 30px;
 }
-.cake_detail{
+.sushi_detail{
     width: 100%;
     height: auto;
     font-size: 17px;
 }
 
-.cake_image img{
+.sushi_image img{
     float: right;
     width: 400px;
     height: auto;
@@ -148,15 +101,28 @@ body{
     margin-left: 10px;
     margin-bottom: 10px;
 }
-.cake_price{
+.sushi_price{
     margin-top: 20px;
     margin-bottom: 20px;
     color: red;
     font-size: 22px;
     font-weight: bold;
 }
-/*end of cake details*/
-.active{
-    color: blue !important;
-    pointer-events: none;
+.paging{
+    height: 40px;
+    padding-left: 250px;
+    margin-top: 20px;
 }
+.paging a{
+    font-weight: bold;
+    font-size: 20px;
+    color: darkred;
+    text-decoration: none;
+    border: 0.5px lightgrey solid;
+    border-radius: 5px;
+    padding: 8px 8px 8px 8px;
+}
+.active{
+    color: red !important;
+}
+

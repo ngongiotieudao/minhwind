@@ -2,7 +2,7 @@
 /*link group https://www.facebook.com/groups/498752080529382/*/
 .header{
     font-family: Times New Roman;
-    background-color: #f68c1f;
+    background-color: #5d5956;
     width: 960px;
     height: 110px;
     padding-left: 20px;
@@ -11,12 +11,13 @@
 }
 .title{
     font-size: 47px;
+    color:#d5f46b;
 }
 .subtitle{
     font-size: 22px;
 }
 .menu{
-    background-color: maroon;
+    background-color: #060606;
     width: 100%;
     height: 35px;
 }
@@ -35,3 +36,16 @@
     color: white;
     font-size: 15px;
 } 
+/*active khi nguoi dung click vao tung menu*/
+.activeMenu{
+    font-size: 25px;
+    font-weight: bold;
+}
+.activeInfor{
+    font-size: 25px;
+    font-weight: bold;
+}
+.activeHome{
+    font-size: 25px;
+    font-weight: bold;
+}

@@ -36,11 +36,10 @@
                             <div class="location_header">
                                 Opening hours:
                             </div>
-                             ${infor.openingHours}
+                            ${infor.openingHours}
                         </div>
                     </div>
                     <div class="map">
-                        <img src="images/map.PNG" alt=""/>
                     </div>
                 </div>
                 <jsp:include page="Right.jsp"/>
