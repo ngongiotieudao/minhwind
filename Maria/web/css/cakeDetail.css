@@ -1,0 +1,9 @@
+
+.cake-price{
+    font-family: Times New Roman;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.cake-price span{
+    color:red;
+}

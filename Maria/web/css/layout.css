@@ -1,0 +1,92 @@
+body{
+    background-image: url('../images/blur-redblack.jpg');
+    background-attachment: fixed;
+    font-family: Arial;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+}
+.container{
+    padding: 0px 20px;
+}
+.site-wrapper{
+    background-color: white;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 24px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.content-wrapper{
+    overflow: auto;
+}
+.content-left{
+    float: left;
+    width: 700px;
+    margin-bottom: 20px;
+}
+.section{
+    margin-top: 15px;
+    border-bottom: 3px dotted lightgrey;
+    font-size: 17px;
+    line-height: 20px;
+}
+.section:last-child{
+    border-bottom: none;
+}
+.section .content{
+    padding: 20px 0;
+    overflow: auto;
+}
+
+.content img{
+    width: 100%;
+    border-radius: 12px;
+}
+.content-title a{
+    color: black;
+    text-decoration: none;
+}
+.content-title{
+    font-family: georgia, palatino;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.content ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.content li{
+    float: left;
+    width: 49%;
+    margin-left: 2%;
+}
+.content li:first-child{
+    margin-left: 0;
+}
+
+.introduction-title{
+    font-family: georgia, palatino;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.introduction-img{
+    width: 50%;
+    float: right;
+}
+
+.error{
+    font-family: georgia, palatino;
+    font-size: 40px;
+    color: red;
+    padding:50px 0px;
+}
+
+.disabled-link{
+    background: gray;
+    pointer-events: none;
+    border:none;
+}
+

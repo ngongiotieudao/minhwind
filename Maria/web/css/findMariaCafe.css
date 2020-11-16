@@ -1,0 +1,14 @@
+.item a{
+    text-decoration: underline;
+    color:black;
+}
+.item a:hover{
+    color: darkslategray;
+
+}
+
+.item span{
+    float:left;
+    width: 20%;
+}
+

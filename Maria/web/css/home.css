@@ -1,0 +1,13 @@
+
+.intro .content .img{
+    width: 174px;
+    margin-right: 20px;
+    float: left;
+}
+
+.signature{
+    font-family: Times New Roman;
+    font-size: 40px;
+    line-height: 60px;
+    font-style: italic;
+}
